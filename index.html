@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Personal Webpage</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Hamida Fathi</h1>
+    </header>
+
+    <section id="bio" class="background-block">
+      <figure>
+        <img src="./assets/Me.jpg" alt="Profile-pic" class="profile-pic" />
+        <figcaption>Hamida loves coding.</figcaption>
+      </figure>
+      <p>
+        Hello! I'm Hamida, a web enthusiast passionate about front-end
+        development and design. I love creating clean, responsive websites that
+        look great on any device.
+      </p>
+    </section>
+
+    <section id="books">
+      <h2>Favorite Books</h2>
+      <ul>
+        <li>The Kite Runner</li>
+        <li>The Alchemist</li>
+        <li>Les Misérables</li>
+        <li>A Thousand Splendid Suns</li>
+      </ul>
+    </section>
+
+    <section id="goals">
+      <h2>My Goals</h2>
+      <ol>
+        <li>Master JavaScript frameworks</li>
+        <li>Build a personal portfolio</li>
+        <li>Contribute to open source</li>
+        <li>Learn backend development</li>
+      </ol>
+    </section>
+
+    <section id="fun-fact" class="background-block">
+      <h2>Fun Fact About Me</h2>
+      <div class="fun-fact-box">
+        I love flowers and birds. They always make me feel calm and happy. 🌸🐦
+      </div>
+    </section>
+
+    <section id="favorite-link">
+      <h2>Favorite Resource</h2>
+      <a href="https://developer.mozilla.org" target="_blank" class="fancy-link"
+        >MDN Web Docs</a
+      >
+    </section>
+
+    <section id="schedule">
+      <h2>My Weekly Schedule</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Activity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td>JavaScript Practice</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>Reading Tech Articles</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>Building Projects</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="POST" id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit" class="submit-btn">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© Hamida Fathi 2025</p>
+    </footer>
+  </body>
+</html>
