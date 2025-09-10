@@ -102,7 +102,7 @@ a {
 
 a:hover,
 a:focus {
-  color: rgb(90, 146, 183);
+  color: rgb(200, 208, 213);
   background-color: rgb(90, 146, 183);
   outline: none;
 }
